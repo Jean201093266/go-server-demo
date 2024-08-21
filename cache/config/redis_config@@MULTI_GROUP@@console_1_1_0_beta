@@ -1,0 +1,5 @@
+{
+    "SRIDS_HOST":"192.168.103.60",
+    "SRIDS_PORT":"6390",
+    "SRIDS_PASSWORD":"123456"
+}

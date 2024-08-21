@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "/example";
+
+package example;
+
+service ExampleService {
+  rpc Ping (CommonMsg) returns (CommonMsg) {}
+}
+
+// The request message containing the user's name.
+message CommonMsg {
+  string data = 1;
+}

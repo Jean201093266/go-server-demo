@@ -1,0 +1,16 @@
+syntax = "proto3";
+option go_package = "/user_service";
+package services;
+
+service UserServices {
+  rpc ping(pingRequest) returns (pingResponse){}
+}
+
+message pingRequest {
+  string service = 1;
+}
+
+message pingResponse {
+  int32 code = 1;
+  string data = 2;
+}

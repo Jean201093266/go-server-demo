@@ -1,0 +1,25 @@
+Server:
+  Network: "tcp"
+  Address: "0.0.0.0:8888"
+Nacos:
+  Ip: "192.168.103.60"
+  Port: 8848
+  NamespaceId: "console_1_1_0_beta"
+  TimeoutMs: 5000
+  NotLoadCacheAtStart: true
+  Username: "nacos"
+  Password: "nacos"
+  Group: "MULTI_GROUP"
+#MySQL:
+#  DSN: "root:zuler0607@tcp(192.168.103.60:3307)/zuler_bussiness_center?charset=utf8mb4&parseTime=True"
+#  ConnMaxLifetime: 180
+
+#Redis:
+#  Addr: "192.168.103.60:6390"
+#  Password: "123456"
+#  DB: 0
+#  IsClusterMode: false
+#  ClusterAddr:
+
+#UserClient:
+#  Addr: "192.168.103.60:6013"
